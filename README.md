@@ -1,6 +1,6 @@
 ## Screw HTTP, use Akka! ##
 
-(Screencast)[http://s.teamon.eu/akka%20-%20Broadband.m4v]
+[Screencast](http://s.teamon.eu/akka%20-%20Broadband.m4v)
 
 ## Run the example ##
 
