@@ -1,0 +1,28 @@
+<html ng-app="TodoApp">
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script src="/assets/akka.js"></script>
+    <script src="/assets/app.js"></script>
+  </head>
+
+  <body>
+    <div ng-controller="Main">
+      <div>
+        <h4>A - echo</h4>
+        {{ resA }}
+        <button ng-click="echoA()">echo A {{ a }}</button>
+      </div>
+
+      <div>
+        <h4>B - echo</h4>
+        {{ resB }}
+        <button ng-click="echoB()">echo B {{ b }}</button>
+      </div>
+
+      <div>
+        <h4>C - ping</h4>
+        <button ng-click="ping()">ping</button>
+      </div>
+    </div>
+  </body>
+</html>
