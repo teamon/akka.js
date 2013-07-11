@@ -3,13 +3,15 @@ package akka.js
 import akka.actor._
 import akka.pattern.{ask, pipe}
 import akka.util._
-import akka.util.duration._
+import scala.concurrent._
+import scala.concurrent.duration._
 import org.mashupbots.socko.events._
 import org.mashupbots.socko.infrastructure.Logger
 import java.io.File
 import org.jboss.netty.channel.Channel
 import org.jboss.netty.handler.codec.http.websocketx.TextWebSocketFrame
 import scala.util.parsing.json._
+import ExecutionContext.Implicits.global
 
 case class WebSocketClientRegister(channel: Channel)
 

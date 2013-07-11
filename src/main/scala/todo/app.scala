@@ -3,7 +3,7 @@ package todo
 import akka.actor._
 import akka.pattern.{ask, pipe}
 import akka.util._
-import akka.util.duration._
+import scala.concurrent.duration._
 import akka.js._
 
 import org.mashupbots.socko.routes._

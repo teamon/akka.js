@@ -1,7 +1,7 @@
 name := "akka.js"
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.10.2"
 
-libraryDependencies += "org.mashupbots.socko" %% "socko-webserver" % "0.2.3"
+libraryDependencies += "org.mashupbots.socko" %% "socko-webserver" % "0.3.0"
 
 seq(Revolver.settings: _*)
